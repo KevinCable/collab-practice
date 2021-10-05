@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+ 
+}
+*{
+    box-sizing: border-box;
+}
+div{
+    height: cal(100wh / 3);
+    border: 1px solid rgb(80, 98, 204);
+}
+
+.nav{
+    background: lightblue;
+    height: 100px;
+    justify-content: center;
+
+}
+
+
+.col{
+    height: 500px;
+
+}
+
+.left{
+    background-color: purple;
+
+}
+.right{
+    background-color: red;
+    text-align: right;
+}
+
+.footer{
+    background: green;
+    height: 300px;
+    justify-content: center;
+}
+.row{
+    height: ;
+}
+.jumbotron{
+    margin-bottom: 0px;
+    background-image: url(https://www.teahub.io/photos/full/6-64847_1080p-space-background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.jumbotron > .container{
+    background-color: rgb(194, 194, 194);
+    padding: 50px;
+}
